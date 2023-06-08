@@ -1,0 +1,105 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registrarse</title>
+  <link rel="stylesheet" href="/css/registro.css">
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="https://kit.fontawesome.com/448295081a.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  
+</head>
+<body>
+    <div class="header2">
+        <!-- Encabezado -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">CARSERVICE</a>
+      <img src="/img/Logo2.png" alt="Logo de la Agencia de Viajes Paris">
+  
+      <!-- Agrega aquí el logo -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/nosotros.html">Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/ofertasPromos.html">Ofertas y Promociones</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/destinos.html">PAQUETES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/contacto.html">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-body">
+            <h3 class="text-center mb-4">Registrarse</h3>
+            <form>
+              <div class="form-group">
+                <input type="text" class="form-control" id="name" placeholder="Nombre" required>
+              </div>
+              <div class="form-group">
+                <input type="number" class="form-control" id="age" placeholder="Edad" required>
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" id="email" placeholder="Correo electrónico" required>
+              </div>
+              <div class="form-group">
+                <input type="password" class="form-control" id="password" placeholder="Contraseña" required>
+              </div>
+              <div class="form-group">
+                <input type="tel" class="form-control" id="phone" placeholder="Número de teléfono" required>
+              </div>
+              <button type="submit" class="btn btn-primary btn-block">Registrarse</button>
+            </form>
+            <hr>
+            <div class="text-center">
+              <p class="mb-0">¿Ya tienes una cuenta? <a href="/IniciarSesion.html" class="text-primary">Iniciar sesión</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+    <a href="https://youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+    <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+    <a href="https://instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+    <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+    <hr>
+    <p>Copyright @2023, CompuMundo</p>
+</div>
+</div>
+
+<script>
+var navBar = document.getElementById("navBar");
+
+function togglebtn(){
+    navBar.classList.toggle("hidemenu");
+}
+</script>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+</html>
